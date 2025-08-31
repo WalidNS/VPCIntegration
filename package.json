@@ -13,8 +13,6 @@
     "test": "node test-runner.js",
     "test:watch": "node test-runner.js --watch",
     "test:coverage": "node test-runner.js --coverage",
-    "test:unit": "node test-runner.js src/__tests__/openAiConnection.test.ts",
-    "test:integration": "node test-runner.js src/__tests__/openAiConnection.integration.test.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier --write src/**/*.ts",
